@@ -4,8 +4,8 @@ import { Component, OnInit } from '@angular/core';
   imports: [],
   selector: 'app-face-snap',
   standalone: true,
-  styleUrl: './face-snap.scss',
-  templateUrl: './face-snap.html',
+  styleUrl: './face-snap.component.scss',
+  templateUrl: './face-snap.component.html',
 })
 export class FaceSnap implements OnInit{
   title!: string;
