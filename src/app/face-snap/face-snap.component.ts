@@ -1,11 +1,14 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { FaceSnap } from '../models/face-snap';
-import { NgClass, NgStyle } from '@angular/common';
+import { DatePipe, NgClass, NgStyle, TitleCasePipe, UpperCasePipe } from '@angular/common';
 
 @Component({
   imports: [
     NgStyle,
-    NgClass
+    NgClass,
+    UpperCasePipe,
+    TitleCasePipe,
+    DatePipe,
   ],
   selector: 'app-face-snap',
   standalone: true,
